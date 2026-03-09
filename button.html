@@ -18,14 +18,14 @@
           ];
         // 2. Keep track of which headline we are on
         let index = 0;
-
         function changeHeadline() {
           //3. Update the text using the curent index
         document.getElementById("headline").innerText = newsTicker[index];
 
         // 4. move the next headline, or loop back to the start
-        index = (index +1) % newsTicker.lenght;
+        index = (index + 1) % newsTicker.lenght;
         }
 </script>
+      
 </body>
 </html>
